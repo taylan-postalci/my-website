@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* header & footer styles */
+header {
+    padding: 20px 35px;
+    background-color: #494848;
+ }
+ header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    display: inline;
+    }
+header nav {
+    float: right;
+    margin: 7px 0;
+  }
+header nav ul li {
+    display: inline;
+  }
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+header a {
+    font-style: oblique;
+    text-decoration: none;
+    color: #2aeca2;
+  }
+
+  footer {
+    background: #494848;
+    width: 100%;
+    padding: 40px 35px;
+  }
+  footer h2{
+      color:#2aeca2 ;
+  }
+  .txt-center{
+    text-align: center;
+  }
+
+  .hero {
+    background-image: url("../images/codeing.jpeg");
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+  }
+  
+  .about-me{
+    width: 100%;
+    margin: 0 auto 0 auto;
+    background:transparent;
+    color:#2aeca2;
+    overflow: auto;
+    
+  }
+  .about-me img {
+    padding: 15px 15px;
+    width: 30%;
+    float: left;
+
+  }
+  
+  .about-me div{
+    text-align: left;
+    background-color:#494848f1;
+    padding: 20px;
+    float: left;
+    width: 65%;
+    margin-top: 15px;
+    
+  }
+ 
+  .about-me div h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  
+  .about-me div h4 {
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+/* projects styles */
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 10px 200px 10px 200px;
+    display: inline-block;
+    border-bottom: 3px solid;
+    border-color: #2aeca2;
+    background-color: #494848;
+    
+  }
+  .projects{
+      background-color: #494848;
+  }
+
+  .main {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #f1f1f1;
+   padding: 20px;
+   font-family: Arial;
+  }
+  
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
