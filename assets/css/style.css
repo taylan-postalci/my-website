@@ -120,7 +120,7 @@ header a {
   }
   
   /* Add padding BETWEEN each column (if you want) */
-  .row,
+  
   .row > .column {
     padding: 8px;
     

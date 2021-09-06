@@ -8,7 +8,7 @@ Ato be my portfolio
 * CSS
 
 ## Website
-https://lernantino.github.io/my-website
+https://taylan-postalci.github.io/my-website/
 
 ## Contribution
 Made with ❤️ by taylan 
